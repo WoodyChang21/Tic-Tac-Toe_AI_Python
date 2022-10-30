@@ -2,7 +2,7 @@
 
 This Tic-Tac-TOE AI is an undefeatable AI that has certain logic to identify the best move to win the game or to prevent from losing.
 
-## GAME LOGIC
+## AI LOGIC
 
 ### 1. Check for AI win move
 It detects the winning condition of AI. If AI has the possibliity of winning, AI will win directly.
@@ -22,11 +22,14 @@ If all the conditions above didn't happen, take the center if the center is not 
 ### 6. Check Corners
 If Center is occupied, take the corner if the corner is not occupied.
 
-### 7.
+### 7. Check Sides
 Take the sides if both center and corners are occupied.
 
 ## Display
 <img width="63" alt="image" src="https://user-images.githubusercontent.com/99929453/198904407-1aaafb86-4c81-415f-92ff-900b10160a8b.png">
+It will be radomly chosen for who goes first.
+The player will be asked choose either "X" or "O"
+The player will then be asked to input the position they want to take.
 
 
 
